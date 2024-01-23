@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java VS C++</title>
+</head>
+
+<body>
+    <h2 style="text-align: center;"><u>JAVA Vs C++</u></h2>
+    <p style="font-size:22px;"><strong><em>Java and C++ are both programming languages, and while they share some similarities, there are
+                significant differences
+                in their code execution models.
+                <br><br>Here are some key distinctions:</em></strong></p>
+    <article style="font-size:18px;">
+
+        <ol>
+            <li> <b>Compilation:</b>
+                <ul>
+                    <li>
+
+                        Java source code is <u>compiled into an intermediate form called bytecode</u> by the Java
+                        compiler
+                        (javac).
+                        <mark>bytecode is platform-independent</mark> and can be executed on any system that has a Java
+                        Virtual
+                        Machine (JVM) installed.
+                    </li> <br>
+                    <li>
+
+                        C++ code is typically <u>compiled directly into machine code</u> or native code specific to the
+                        target
+                        platform.
+                        <mark>The resulting executable file is platform-dependent.</mark>
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Platform Independence:</b>
+                <ul>
+                    <li>
+                        Java is designed to be platform-independent, following the <mark><q>write once, run
+                                anywhere</q></mark> principle.
+                        The bytecode is executed by the JVM, which abstracts the underlying hardware and operating
+                        system.
+                    </li>
+                    <li>
+
+                        C++ code needs to be recompiled for each target platform, and the resulting executable is
+                        specific
+                        to that platform.
+                        Platform independence is not a built-in feature of C++, and separate binaries are required for
+                        different systems.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Memory Management:</b>
+                <ul>
+                    <li>
+                        <mark>Java uses automatic memory management through garbage collection.</mark> The JVM is
+                        responsible for
+                        managing memory and
+                        reclaiming unused objects.
+                        Developers do not have direct control over memory allocation and deallocation.
+                    </li>
+                    <li>
+                        C++ allows manual memory management. <mark>Developers have control over memory allocation and
+                            deallocation</mark>
+                        using operations
+                        like new and delete (or malloc and free in C).
+                        The flexibility of manual memory management comes with the responsibility of avoiding memory
+                        leaks
+                        and managing memory
+                        carefully.</li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Execution Model:</b>
+                <ul>
+                    <li>
+                        Java code is executed by the JVM, providing a layer of abstraction between the Java program and
+                        the
+                        underlying hardware.
+                        The JVM interprets or compiles bytecode at runtime, using Just-In-Time (JIT) compilation to
+                        improve
+                        performance.
+                    </li>
+                    <li>
+
+                        C++ code is executed directly by the operating system on the target machine.
+                        The code is compiled into machine code, and the resulting executable interacts more closely with
+                        the
+                        hardware.
+                    </li>
+                </ul>
+            </li>
+            <br>
+            <li>
+                <b>Error Handling:</b>
+                <ul>
+                    <li>
+
+                        Java uses exception handling for error management, requiring developers to explicitly catch or
+                        declare exceptions.
+                    </li>
+                    <li>
+
+                        C++ also supports exception handling, but it also allows for traditional error-handling
+                        mechanisms
+                        like return codes.
+                    </li>
+                </ul>
+            </li>
+        </ol>
+    </article>
+</body>
+
+</html>
